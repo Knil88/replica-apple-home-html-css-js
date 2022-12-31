@@ -53,13 +53,15 @@ body{
     background-color: white;
     color: black;
     width: 100%;
-    height: 100vh;
-    text-align: center;
+    height: auto;
+    padding-bottom:10px ;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 2;
+   
+
 }
 .logo-watch{
     width:20%
@@ -70,4 +72,61 @@ body{
 #block{
     display: flex;
     flex-direction: column;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding:  15% 10% 1% 10%;
+}
+.intro{
+    font-size: 20px;
+    font-weight:bold
+}
+.big-title{
+    font-size:4rem;
+}
+.title-medium{
+    font-size: 2rem;
+}
+
+.fade-in{
+    opacity: 0;
+    transform: translateY(20vh);
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+.fade-in.in-page{
+    opacity: 1;
+    transform: translateY(0vh);
+}
+
+.img-left{
+    width: 120vw;
+    position: relative;
+    left: -30vh;
+    display: block;
+}
+.img-center{
+    width: 100%;
+    position: relative;
+    left:0vw;
+    display: block;
+}
+.subtitle{
+    font-weight: 600;
+    max-width: 500px;
+  
+ 
+   color: #86868b;
+}
+.adv-text{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px 
+    
+}
+footer{
+    height: 50vh;
+    position: relative;
+    background-color: grey;
+    z-index: 3;
 }
