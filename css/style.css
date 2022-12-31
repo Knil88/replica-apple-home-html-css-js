@@ -18,15 +18,31 @@ header{
 .header-logo{
     text-decoration: none;
 }
-li a{
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 11px;
+    padding: 8px 23px;
+  }
+ a{
     text-decoration: none;
-    color:white;
+    color: #858585;
+    
+}
+a{
+    transition: ease-in-out 0.4s;
+}
+ a:hover{
+   
+    color: white;
 }
 .header-content{
     padding:5px;
     width: 90%;
     margin: auto;
     display: flex;
+    color: #858585;
+    
 }
 
 .video-bg{
@@ -149,4 +165,23 @@ footer{
     position: relative;
     background-color: grey;
     z-index: 3;
+}
+input{
+    color: #858585;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid  #858585;
+   
+    
+    padding: 3px;
+}
+.icon-container{
+    align-self: center;
+    position: relative;
+}
+lens{
+    position: absolute;
+    top: 4px;
+    left: 4px;
 }

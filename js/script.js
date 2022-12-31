@@ -1,4 +1,4 @@
-let listaLink = document
+let navLink = document.querySelector("ul.lista-link")
 
 
 // elements
