@@ -1,6 +1,12 @@
 let navLink = document.querySelector("ul.lista-link")
 
+links = ["Store","Mac","iPad","iPhone","Watch","AirPods","TV&Casa","Solo con Apple","Accessori","Supporto"]
 
+for(i=0; i<links.length; i++){
+  let element = `<ul class="lista-link">
+ <li><a href="#">${links[i]}</a></li></ul>`;
+  navLink.innerHTML += element;
+}
 // elements
 var elements_to_watch = document.querySelectorAll('.watch');
 // callback 
