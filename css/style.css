@@ -20,7 +20,7 @@ body{
    
 }
 .section{
-    border: 1px solid red;
+   
     width: 100%;
     height: 100vh;
     position: relative;
@@ -33,5 +33,41 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+    opacity: 0;
+    position: fixed;
+    top:0;
+    left:0;
+    margin-left: 25%;
+    max-width: 50%;
+}
+.section.in-page .title{
+    transform: scale(1.2);
+    opacity: 1;
+
 }
 
+
+
+.panel{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.logo-watch{
+    width:20%
+}
+.color-adv{
+    color: #f56900;
+}
+#block{
+    display: flex;
+    flex-direction: column;
+}
