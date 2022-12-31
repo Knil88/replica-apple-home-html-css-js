@@ -8,6 +8,26 @@ body{
     color: white;
     font-family: 'Inter', sans-serif;
 }
+header{
+    background-color: #333333;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    
+}
+.header-logo{
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+.header-content{
+    padding:5px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
 
 .video-bg{
     width: 100%;

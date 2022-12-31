@@ -1,3 +1,6 @@
+let listaLink = document
+
+
 // elements
 var elements_to_watch = document.querySelectorAll('.watch');
 // callback 
